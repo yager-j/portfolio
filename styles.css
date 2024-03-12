@@ -71,6 +71,11 @@ body {
   .custom-link:hover {
     color: #e65100;
   }
+
+  .orange-link {
+    color: #e65100;
+    text-decoration: none; /* Remove the underline */
+  }
   
   .case-study-link:hover .case-image {
     transform: scale(1.02); /* Increase the size on hover */
