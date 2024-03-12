@@ -1,5 +1,6 @@
 body {
     cursor: url('images/bulb.png'), 10 10 auto;
+    margin-bottom: 80px;
 }
 
   body, h1, h2 {
