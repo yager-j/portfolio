@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jo yager</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpg" href="images/bulb.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div class="responsive">
+        <img src="images/signup.jpg" alt="Slide 1" class="mySlides">
+        <img src="images/lf.jpg" alt="Slide 2" class="mySlides">
+        <img src="images/nyap.jpg" alt="Slide 2" class="mySlides">
+        <img src="images/GG/GG-cover-slide.jpg" alt="Slide 2" class="mySlides">
+        <img src="images/BR/BR-cover-slide.jpg" alt="Slide 2" class="mySlides">
+      <!-- Add more slides as needed -->
+
+    <script>
+      var slideIndex = 0;
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 1200); // Change slide every 2 seconds (adjust as needed)
+      }
+
+      showSlides(); // Initial call to start the slideshow
+    </script>
+  </div>
+  <a href="index.html" class="w3-display-topleft w3-padding-large custom-link">
+    jo yager
+  </a>
+    <a href="about.html" class="w3-display-topright w3-padding-large custom-link">
+      about
+    </a>
+    <div class="w3-display-middle">
+      <hr class="w3-border-grey">
+    </div>
+  </div>
+
+  <div class="case-studies-container">
+    <a href="case_study1.html" class="case-study-link custom-link">
+      <div class="case-study">
+          <img src="images/GG/GG-cover-slide.jpg" alt="Your Animation" class="case-image">
+        <div class="case-details">
+          <h2>Case Study 1</h2>
+          <p>Short summary of Case Study 1 goes here.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="case_study2.html" class="case-study-link custom-link">
+    <div class="case-study">
+      <img src="images/BR/BR-cover-slide.jpg" alt="Slide 1" class="case-image">
+      <div class="case-details">
+        <h2>Case Study 2</h2>
+        <p>Short summary of Case Study 2 goes here.</p>
+      </div>
+    </div>
+    </a>
+
+    <div class="case-study">
+      <img src="images/nyap.jpg" alt="Slide 1" class="case-image">
+      <div class="case-details">
+        <h2>Case Study 1</h2>
+        <p>Short summary of Case Study 1 goes here.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+body {
+    cursor: url('images/bulb.png'), 10 10 auto;
+}
+
+  body, h1, h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+
+  .case-study-page {
+    margin: 80px 0;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .slideshow-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .mySlides {
+    width: 100%;
+    height: auto;
+  }
+  
+  .w3-display-container {
+    position: relative;
+  }
+  
+  .w3-display-topleft,
+  .w3-display-topright {
+    position: absolute;
+    font-size: 2.5em;
+    font-weight: bolder;
+    line-height: 1;
+  }
+  
+  .w3-display-topleft,
+  .w3-display-topright {
+    top: 0.7em;
+  }
+  
+  .w3-display-topleft {
+    left: 0.8em;
+  }
+  
+  .w3-display-topright {
+    right: 0.8em;
+  }
+  
+  .w3-display-middle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .custom-link {
+    text-decoration: none; /* Remove the underline */
+  }
+
+  .custom-link:hover {
+    color: #e65100;
+  }
+  
+  .case-study-link:hover .case-image {
+    transform: scale(1.02); /* Increase the size on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .case-image {
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .case-studies-container {
+    max-width: 100%;
+    height: auto;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .case-study {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px;
+    text-align: center;
+  }
+  
+  .case-text {
+    font-size: 1em;
+    color: #555;
+    padding: 40px 0px;
+  }
+  
+  .case-details {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .case-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .case-details p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .case-details .tech-stack {
+    font-size: 1em;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .iphone-frame,
+  .ipad-frame {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .iphone-frame img,
+  .ipad-frame img {
+    width: 100%;
+    display: block;
+  }
+  
+  .iphone-frame:before,
+  .ipad-frame:before {
+    content: '';
+    position: absolute;
+    border: 12px solid #333;
+    box-sizing: border-box;
+  }
+  
+  .iphone-frame:before {
+    top: -3.2%;
+    left: -3.2%;
+    right: -3.2%;
+    bottom: -3.2%;
+    border-radius: 30px;
+  }
+  
+  .ipad-frame:before {
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 8px;
+  }
