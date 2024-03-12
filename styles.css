@@ -139,6 +139,19 @@ body {
     font-weight: bold;
     color: #555;
   }
+
+  .tag {
+    display: inline-block;
+    background-color: rgba(230, 81, 0, 0.1);
+    color: #333;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+
+  .tags {
+    margin-top: 8px;
+  }
   
   .iphone-frame,
   .ipad-frame {
