@@ -6,6 +6,7 @@ body {
   body, h1, h2 {
     font-family: "Raleway", sans-serif;
     font-weight: bolder;
+    color: black;
   }
   
   body, html {
@@ -57,14 +58,9 @@ body {
   .w3-display-topright {
     right: 0.8em;
   }
-  
-  .w3-display-middle {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 
   .custom-link {
+    color: black;
     text-decoration: none; /* Remove the underline */
   }
 
@@ -77,7 +73,7 @@ body {
     text-decoration: none; /* Remove the underline */
   }
   
-  .case-study-link:hover .case-image {
+  .case-image:hover {
     transform: scale(1.02); /* Increase the size on hover */
     transition: transform 0.3s ease; /* Add a smooth transition */
   }
@@ -137,7 +133,7 @@ body {
   .tech-stack {
     font-size: 10em;
     font-weight: bold !important;
-    color: #c81b1b;
+    color: #1f1c1c;
   }
 
   .tag {
