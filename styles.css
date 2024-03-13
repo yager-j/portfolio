@@ -153,39 +153,64 @@ body {
     margin-top: 8px;
   }
   
-  .iphone-frame,
   .ipad-frame {
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+  }
+
+  .iphone-frame {
+    position: relative;
+    width: 100%;
+    max-width: 250px; /* Adjust maximum width as needed */
     margin: 0 auto;
   }
   
-  .iphone-frame img,
-  .ipad-frame img {
-    width: 100%;
+  .ipad-image {
     display: block;
+    width: 100%;
+  }
+
+  .iphone-image {
+    display: block;
+    width: 100%;
   }
   
-  .iphone-frame:before,
-  .ipad-frame:before {
-    content: '';
+  .gif-overlay {
     position: absolute;
-    border: 12px solid #333;
-    box-sizing: border-box;
+    top: 2%; /* Adjust the vertical position of the overlay */
+    left: 4%; /* Adjust the horizontal position of the overlay */
+    width: 92%; /* Adjust the width of the overlay */
+    padding-top: 131%; /* Aspect ratio for 16:9 */
+    overflow: hidden;
+    border-radius: 3%;
   }
-  
-  .iphone-frame:before {
-    top: -3.2%;
-    left: -3.2%;
-    right: -3.2%;
-    bottom: -3.2%;
-    border-radius: 30px;
-  }
-  
-  .ipad-frame:before {
-    top: -6px;
-    left: -6px;
-    right: -6px;
-    bottom: -6px;
-    border-radius: 8px;
-  }
+
+  .gif-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.iphone-gif-overlay {
+  position: absolute;
+    top: 1.8%; /* Adjust the vertical position of the overlay */
+    left: 5%; /* Adjust the horizontal position of the overlay */
+    width: 90%; /* Adjust the width of the overlay */
+    padding-top: 198%; /* Aspect ratio for iPhone 14 Pro screen */
+    overflow: hidden;
+    border-radius: 6%;
+}
+
+.iphone-gif-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
