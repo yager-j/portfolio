@@ -134,10 +134,10 @@ body {
     color: #555;
   }
   
-  .case-details .tech-stack {
-    font-size: 1em;
-    font-weight: bold;
-    color: #555;
+  .tech-stack {
+    font-size: 10em;
+    font-weight: bold !important;
+    color: #c81b1b;
   }
 
   .tag {
