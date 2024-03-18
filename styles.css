@@ -24,6 +24,7 @@ body {
   }
   
   .slideshow-container {
+    width: 100%; /* Fill the width of the page */
     flex: 1;
     position: relative;
     overflow: hidden;
@@ -82,6 +83,11 @@ body {
     width: 100%;
     height: auto;
   }
+
+  .responsive img {
+    border: none !important; /* Remove default border */
+    outline: none; /* Remove outline */
+}
   
   .case-image {
     max-width: 100%;
