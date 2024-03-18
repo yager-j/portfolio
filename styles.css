@@ -90,7 +90,8 @@ body {
 }
   
   .case-image {
-    max-width: 100%;
+    max-width: 800px;
+    width: 100%;
     height: auto;
     padding: 0 20px;
     text-align: center;
