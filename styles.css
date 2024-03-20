@@ -8,10 +8,6 @@ body {
     font-weight: bolder;
     color: black;
   }
-  
-  body, html {
-    height: 100%;
-  }
 
   .case-study-page {
     margin: 80px 0;
@@ -33,10 +29,6 @@ body {
   .mySlides {
     width: 100%;
     height: auto;
-  }
-  
-  .w3-display-container {
-    position: relative;
   }
   
   .w3-display-topleft,
@@ -87,19 +79,23 @@ body {
   .responsive img {
     border: none !important; /* Remove default border */
     outline: none; /* Remove outline */
-}
+  }
   
+  .case-image-container {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+  }
+
   .case-image {
-    max-width: 800px;
     width: 100%;
     height: auto;
-    padding: 0 20px;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
   }
   
   .case-studies-container {
     max-width: 100%;
-    height: auto;
+    margin: auto;
     padding: 100px 20px;
     text-align: center;
   }
@@ -108,7 +104,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 40px;
+    padding: 40px 20px;
     text-align: center;
   }
   
@@ -125,6 +121,7 @@ body {
     margin-right: auto;
     width: 80%;
     max-width: 500px;
+    text-align: center;
   }
   
   .case-details h2 {
@@ -216,4 +213,20 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.figma-iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio (9:16) */
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.figma-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
