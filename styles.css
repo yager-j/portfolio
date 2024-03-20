@@ -163,7 +163,7 @@ body {
   .iphone-frame {
     position: relative;
     width: 100%;
-    max-width: 250px; /* Adjust maximum width as needed */
+    max-width: 400px; /* Adjust maximum width as needed */
     margin: 0 auto;
   }
   
@@ -241,3 +241,4 @@ body {
     margin-top: 20px; /* Adjust the margin-top value for smaller screens */
   }
 }
+
