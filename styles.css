@@ -1,5 +1,7 @@
 body {
     cursor: url('images/bulb.png'), 10 10 auto;
+    margin: 0;
+    padding: 0;
     margin-bottom: 80px;
 }
 
@@ -20,7 +22,7 @@ body {
   }
   
   .slideshow-container {
-    width: 100%; /* Fill the width of the page */
+    width: 100%;
     flex: 1;
     position: relative;
     overflow: hidden;
